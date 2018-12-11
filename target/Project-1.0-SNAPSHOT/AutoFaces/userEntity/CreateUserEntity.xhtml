@@ -15,36 +15,34 @@
 <head>
     <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
     <meta content="text/html; charset=UTF-8" />
-        <title>UserEntity View</title>
+        <title>Create UserEntity</title>
     </head>
     <body>
         <f:view>
             <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
-            <h1>UserEntity View</h1>
+            <h1>Create UserEntity</h1>
             <h:form>
                 <h:panelGrid columns="2">
                     <h:outputText value="id:"/>
-                    <h:outputText value="#{userEntity.entity.id}" title="id" />
+                    <h:inputText value="#{userEntity.entity.id}" title="id" />
 
                     <h:outputText value="username:"/>
-                    <h:outputText value="#{userEntity.entity.username}" title="username" />
+                    <h:inputText value="#{userEntity.entity.username}" title="username" />
 
                     <h:outputText value="roles:"/>
-                    <h:outputText value="#{userEntity.entity.roles}" title="roles" />
+                    <h:inputText value="#{userEntity.entity.roles}" title="roles" />
 
                     <h:outputText value="password:"/>
-                    <h:outputText value="#{userEntity.entity.password}" title="password" />
+                    <h:inputText value="#{userEntity.entity.password}" title="password" />
 
                     <h:outputText value="personalDataById:"/>
                     <h:selectOneMenu value="#{userEntity.entity.personalDataById}"  title="personalDataById">
                         <f:selectItems  value="#{personalDataEntity.allEntitiesAsSelectedItems}"/>
                     </h:selectOneMenu>
-
                 </h:panelGrid>
 
-                <h:commandButton action="editUserEntity" value="Edit" />
-                <br/>
-                <h:commandButton action="userEntityList" value="Show All"/>
+                <h:commandButton action="#{userEntity.create}" value="Save" />
+                <h:commandButton action="userEntityList" value="Cancel"/>
                 <br/>
             </h:form>
         </f:view>

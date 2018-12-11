@@ -11,20 +11,32 @@
 <head>
     <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
     <meta content="text/html; charset=UTF-8" />
-        <title>PersonalDataEntity List</title>
+        <title>TemporaryPersonalDataEntity List</title>
     </head>
     <body>
         <f:view>
-            <h1>PersonalDataEntity List</h1>
+            <h1>TemporaryPersonalDataEntity List</h1>
             <h:form>
-              <h:commandButton action="#{personalDataEntity.startCreate}" value="Create"/>
+              <h:commandButton action="#{temporaryPersonalDataEntity.startCreate}" value="Create"/>
 
-              <h:dataTable value='#{personalDataEntity.allEntities}' var='item' border="1" cellpadding="2" cellspacing="0">
+              <h:dataTable value='#{temporaryPersonalDataEntity.allEntities}' var='item' border="1" cellpadding="2" cellspacing="0">
                                                        <h:column>
                       <f:facet name="header">
                       <h:outputText value="id"/>
                       </f:facet>
                       <h:outputText value="#{item.id}"/>
+                  </h:column>
+                                                                        <h:column>
+                      <f:facet name="header">
+                      <h:outputText value="timestamp"/>
+                      </f:facet>
+                      <h:outputText value="#{item.timestamp}"/>
+                  </h:column>
+                                                                        <h:column>
+                      <f:facet name="header">
+                      <h:outputText value="userId"/>
+                      </f:facet>
+                      <h:outputText value="#{item.userId}"/>
                   </h:column>
                                                                         <h:column>
                       <f:facet name="header">
@@ -56,27 +68,32 @@
                       </f:facet>
                       <h:outputText value="#{item.photo}"/>
                   </h:column>
-
-                  <h:column>
+                                                                        <h:column>
                       <f:facet name="header">
-                      <h:outputText value="jobDataById"/>
+                      <h:outputText value="adres"/>
                       </f:facet>
-                      <h:outputText value="#{item.jobDataById}"/>
+                      <h:outputText value="#{item.adres}"/>
                   </h:column>
-                                                                                                          <h:column>
+                                                                        <h:column>
                       <f:facet name="header">
-                      <h:outputText value="userByUserIdId"/>
+                      <h:outputText value="emails"/>
                       </f:facet>
-                      <h:outputText value="#{item.userByUserIdId}"/>
+                      <h:outputText value="#{item.emails}"/>
                   </h:column>
-                                                                                                                       <h:column>
-                      <h:commandButton value="View" action="#{personalDataEntity.startView}">
+                                                                        <h:column>
+                      <f:facet name="header">
+                      <h:outputText value="phoneNumbers"/>
+                      </f:facet>
+                      <h:outputText value="#{item.phoneNumbers}"/>
+                  </h:column>
+                                                   <h:column>
+                      <h:commandButton value="View" action="#{temporaryPersonalDataEntity.startView}">
                           <f:param name="id" value="#{item.id}"/>
                       </h:commandButton><!--&nbsp;-->
-                      <h:commandButton value="Edit" action="#{personalDataEntity.startEdit}">
+                      <h:commandButton value="Edit" action="#{temporaryPersonalDataEntity.startEdit}">
                           <f:param name="id" value="#{item.id}"/>
                       </h:commandButton><!--&nbsp;-->
-                      <h:commandButton value="Delete" action="#{personalDataEntity.delete}">
+                      <h:commandButton value="Delete" action="#{temporaryPersonalDataEntity.delete}">
                           <f:param name="id" value="#{item.id}"/>
                       </h:commandButton>
                   </h:column>

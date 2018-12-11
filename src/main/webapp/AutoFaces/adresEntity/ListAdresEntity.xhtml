@@ -11,15 +11,15 @@
 <head>
     <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
     <meta content="text/html; charset=UTF-8" />
-        <title>PersonalDataEntity List</title>
+        <title>AdresEntity List</title>
     </head>
     <body>
         <f:view>
-            <h1>PersonalDataEntity List</h1>
+            <h1>AdresEntity List</h1>
             <h:form>
-              <h:commandButton action="#{personalDataEntity.startCreate}" value="Create"/>
+              <h:commandButton action="#{adresEntity.startCreate}" value="Create"/>
 
-              <h:dataTable value='#{personalDataEntity.allEntities}' var='item' border="1" cellpadding="2" cellspacing="0">
+              <h:dataTable value='#{adresEntity.allEntities}' var='item' border="1" cellpadding="2" cellspacing="0">
                                                        <h:column>
                       <f:facet name="header">
                       <h:outputText value="id"/>
@@ -28,55 +28,54 @@
                   </h:column>
                                                                         <h:column>
                       <f:facet name="header">
-                      <h:outputText value="familyName"/>
+                      <h:outputText value="prim"/>
                       </f:facet>
-                      <h:outputText value="#{item.familyName}"/>
+                      <h:outputText value="#{item.prim}"/>
                   </h:column>
                                                                         <h:column>
                       <f:facet name="header">
-                      <h:outputText value="firstName"/>
+                      <h:outputText value="street"/>
                       </f:facet>
-                      <h:outputText value="#{item.firstName}"/>
+                      <h:outputText value="#{item.street}"/>
                   </h:column>
                                                                         <h:column>
                       <f:facet name="header">
-                      <h:outputText value="birthDate"/>
+                      <h:outputText value="number"/>
                       </f:facet>
-                      <h:outputText value="#{item.birthDate}"/>
+                      <h:outputText value="#{item.number}"/>
                   </h:column>
                                                                         <h:column>
                       <f:facet name="header">
-                      <h:outputText value="birthPlace"/>
+                      <h:outputText value="local"/>
                       </f:facet>
-                      <h:outputText value="#{item.birthPlace}"/>
+                      <h:outputText value="#{item.local}"/>
                   </h:column>
                                                                         <h:column>
                       <f:facet name="header">
-                      <h:outputText value="photo"/>
+                      <h:outputText value="postalCode"/>
                       </f:facet>
-                      <h:outputText value="#{item.photo}"/>
+                      <h:outputText value="#{item.postalCode}"/>
                   </h:column>
-
-                  <h:column>
+                                                                        <h:column>
                       <f:facet name="header">
-                      <h:outputText value="jobDataById"/>
+                      <h:outputText value="town"/>
                       </f:facet>
-                      <h:outputText value="#{item.jobDataById}"/>
+                      <h:outputText value="#{item.town}"/>
                   </h:column>
-                                                                                                          <h:column>
+                                                                        <h:column>
                       <f:facet name="header">
-                      <h:outputText value="userByUserIdId"/>
+                      <h:outputText value="personalDataByUserId"/>
                       </f:facet>
-                      <h:outputText value="#{item.userByUserIdId}"/>
+                      <h:outputText value="#{item.personalDataByUserId}"/>
                   </h:column>
-                                                                                                                       <h:column>
-                      <h:commandButton value="View" action="#{personalDataEntity.startView}">
+                                                   <h:column>
+                      <h:commandButton value="View" action="#{adresEntity.startView}">
                           <f:param name="id" value="#{item.id}"/>
-                      </h:commandButton><!--&nbsp;-->
-                      <h:commandButton value="Edit" action="#{personalDataEntity.startEdit}">
+                      </h:commandButton>
+                      <h:commandButton value="Edit" action="#{adresEntity.startEdit}">
                           <f:param name="id" value="#{item.id}"/>
-                      </h:commandButton><!--&nbsp;-->
-                      <h:commandButton value="Delete" action="#{personalDataEntity.delete}">
+                      </h:commandButton>
+                      <h:commandButton value="Delete" action="#{adresEntity.delete}">
                           <f:param name="id" value="#{item.id}"/>
                       </h:commandButton>
                   </h:column>

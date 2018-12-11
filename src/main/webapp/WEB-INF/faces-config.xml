@@ -110,111 +110,111 @@
         <from-view-id>*</from-view-id>
         <navigation-case>
             <from-outcome>editAdresEntity</from-outcome>
-            <to-view-id>/AutoFaces/adresEntity/EditAdresEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/adresEntity/EditAdresEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewAdresEntity</from-outcome>
-            <to-view-id>/AutoFaces/adresEntity/ViewAdresEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/adresEntity/ViewAdresEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>adresEntityList</from-outcome>
-            <to-view-id>/AutoFaces/adresEntity/ListAdresEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/adresEntity/ListAdresEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createAdresEntity</from-outcome>
-            <to-view-id>/AutoFaces/adresEntity/CreateAdresEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/adresEntity/CreateAdresEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>editEmailsEntity</from-outcome>
-            <to-view-id>/AutoFaces/emailsEntity/EditEmailsEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/emailsEntity/EditEmailsEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewEmailsEntity</from-outcome>
-            <to-view-id>/AutoFaces/emailsEntity/ViewEmailsEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/emailsEntity/ViewEmailsEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>emailsEntityList</from-outcome>
-            <to-view-id>/AutoFaces/emailsEntity/ListEmailsEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/emailsEntity/ListEmailsEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createEmailsEntity</from-outcome>
-            <to-view-id>/AutoFaces/emailsEntity/CreateEmailsEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/emailsEntity/CreateEmailsEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>editEngagementEntity</from-outcome>
-            <to-view-id>/AutoFaces/engagementEntity/EditEngagementEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/engagementEntity/EditEngagementEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewEngagementEntity</from-outcome>
-            <to-view-id>/AutoFaces/engagementEntity/ViewEngagementEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/engagementEntity/ViewEngagementEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>engagementEntityList</from-outcome>
-            <to-view-id>/AutoFaces/engagementEntity/ListEngagementEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/engagementEntity/ListEngagementEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createEngagementEntity</from-outcome>
-            <to-view-id>/AutoFaces/engagementEntity/CreateEngagementEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/engagementEntity/CreateEngagementEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>editMembershipEntity</from-outcome>
-            <to-view-id>/AutoFaces/membershipEntity/EditMembershipEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/membershipEntity/EditMembershipEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewMembershipEntity</from-outcome>
-            <to-view-id>/AutoFaces/membershipEntity/ViewMembershipEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/membershipEntity/ViewMembershipEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>membershipEntityList</from-outcome>
-            <to-view-id>/AutoFaces/membershipEntity/ListMembershipEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/membershipEntity/ListMembershipEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createMembershipEntity</from-outcome>
-            <to-view-id>/AutoFaces/membershipEntity/CreateMembershipEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/membershipEntity/CreateMembershipEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>editPhoneNumbersEntity</from-outcome>
-            <to-view-id>/AutoFaces/phoneNumbersEntity/EditPhoneNumbersEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/phoneNumbersEntity/EditPhoneNumbersEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewPhoneNumbersEntity</from-outcome>
-            <to-view-id>/AutoFaces/phoneNumbersEntity/ViewPhoneNumbersEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/phoneNumbersEntity/ViewPhoneNumbersEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>phoneNumbersEntityList</from-outcome>
-            <to-view-id>/AutoFaces/phoneNumbersEntity/ListPhoneNumbersEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/phoneNumbersEntity/ListPhoneNumbersEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createPhoneNumbersEntity</from-outcome>
-            <to-view-id>/AutoFaces/phoneNumbersEntity/CreatePhoneNumbersEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/phoneNumbersEntity/CreatePhoneNumbersEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>editPersonalDataEntity</from-outcome>
-            <to-view-id>/AutoFaces/personalDataEntity/EditPersonalDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewPersonalDataEntity</from-outcome>
-            <to-view-id>/AutoFaces/personalDataEntity/ViewPersonalDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/personalDataEntity/ViewPersonalDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>personalDataEntityList</from-outcome>
-            <to-view-id>/AutoFaces/personalDataEntity/ListPersonalDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/personalDataEntity/ListPersonalDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createPersonalDataEntity</from-outcome>
-            <to-view-id>/AutoFaces/personalDataEntity/CreatePersonalDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/personalDataEntity/CreatePersonalDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>editTemporaryPersonalDataEntity</from-outcome>
-            <to-view-id>/AutoFaces/temporaryPersonalDataEntity/EditTemporaryPersonalDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/temporaryPersonalDataEntity/EditTemporaryPersonalDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewTemporaryPersonalDataEntity</from-outcome>
-            <to-view-id>/AutoFaces/temporaryPersonalDataEntity/ViewTemporaryPersonalDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/temporaryPersonalDataEntity/ViewTemporaryPersonalDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>temporaryPersonalDataEntityList</from-outcome>
-            <to-view-id>/AutoFaces/temporaryPersonalDataEntity/ListTemporaryPersonalDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/temporaryPersonalDataEntity/ListTemporaryPersonalDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createTemporaryPersonalDataEntity</from-outcome>
@@ -222,55 +222,55 @@
         </navigation-case>
         <navigation-case>
             <from-outcome>editJobDataEntity</from-outcome>
-            <to-view-id>/AutoFaces/jobDataEntity/EditJobDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/jobDataEntity/EditJobDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewJobDataEntity</from-outcome>
-            <to-view-id>/AutoFaces/jobDataEntity/ViewJobDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/jobDataEntity/ViewJobDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>jobDataEntityList</from-outcome>
-            <to-view-id>/AutoFaces/jobDataEntity/ListJobDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/jobDataEntity/ListJobDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createJobDataEntity</from-outcome>
-            <to-view-id>/AutoFaces/jobDataEntity/CreateJobDataEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/jobDataEntity/CreateJobDataEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>editStaffCategoryEntity</from-outcome>
-            <to-view-id>/AutoFaces/staffCategoryEntity/EditStaffCategoryEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/staffCategoryEntity/EditStaffCategoryEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewStaffCategoryEntity</from-outcome>
-            <to-view-id>/AutoFaces/staffCategoryEntity/ViewStaffCategoryEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/staffCategoryEntity/ViewStaffCategoryEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>staffCategoryEntityList</from-outcome>
-            <to-view-id>/AutoFaces/staffCategoryEntity/ListStaffCategoryEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/staffCategoryEntity/ListStaffCategoryEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createStaffCategoryEntity</from-outcome>
-            <to-view-id>/AutoFaces/staffCategoryEntity/CreateStaffCategoryEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/staffCategoryEntity/CreateStaffCategoryEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>editUnitsEntity</from-outcome>
-            <to-view-id>/AutoFaces/unitsEntity/EditUnitsEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/unitsEntity/EditUnitsEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewUnitsEntity</from-outcome>
-            <to-view-id>/AutoFaces/unitsEntity/ViewUnitsEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/unitsEntity/ViewUnitsEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>unitsEntityList</from-outcome>
-            <to-view-id>/AutoFaces/unitsEntity/ListUnitsEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/unitsEntity/ListUnitsEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>createUnitsEntity</from-outcome>
-            <to-view-id>/AutoFaces/unitsEntity/CreateUnitsEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/unitsEntity/CreateUnitsEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>editUserEntity</from-outcome>
-            <to-view-id>/AutoFaces/userEntity/EditUserEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/userEntity/EditUserEntity.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
             <from-outcome>viewUserEntity</from-outcome>
@@ -282,7 +282,7 @@
         </navigation-case>
         <navigation-case>
             <from-outcome>createUserEntity</from-outcome>
-            <to-view-id>/AutoFaces/userEntity/CreateUserEntity.jsp</to-view-id>
+            <to-view-id>/AutoFaces/userEntity/CreateUserEntity.xhtml</to-view-id>
         </navigation-case>
     </navigation-rule>
 </faces-config>

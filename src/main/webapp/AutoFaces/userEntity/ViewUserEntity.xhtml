@@ -23,18 +23,22 @@
             <h1>UserEntity View</h1>
             <h:form>
                 <h:panelGrid columns="2">
-                                                           <h:outputText value="id:"/>
-                                                   <h:outputText value="#{userEntity.entity.id}" title="id" />
-                                                                                                       <h:outputText value="username:"/>
-                                                   <h:outputText value="#{userEntity.entity.username}" title="username" />
-                                                                                                       <h:outputText value="roles:"/>
-                                                   <h:outputText value="#{userEntity.entity.roles}" title="roles" />
-                                                                                                       <h:outputText value="password:"/>
-                                                   <h:outputText value="#{userEntity.entity.password}" title="password" />
-                                                                                                       <h:outputText value="personalDataById:"/>
-                                                   <h:selectOneMenu value="#{userEntity.entity.personalDataById}"  title="personalDataById">
-                                <f:selectItems  value="#{personalDataEntity.allEntitiesAsSelectedItems}"/>
-                            </h:selectOneMenu>
+                    <h:outputText value="id:"/>
+                    <h:outputText value="#{userEntity.entity.id}" title="id" />
+
+                    <h:outputText value="username:"/>
+                    <h:outputText value="#{userEntity.entity.username}" title="username" />
+
+                    <h:outputText value="roles:"/>
+                    <h:outputText value="#{userEntity.entity.roles}" title="roles" />
+
+                    <h:outputText value="password:"/>
+                    <h:outputText value="#{userEntity.entity.password}" title="password" />
+
+                    <h:outputText value="personalDataById:"/>
+                    <h:selectOneMenu value="#{userEntity.entity.personalDataById}"  title="personalDataById">
+                        <f:selectItems  value="#{personalDataEntity.allEntitiesAsSelectedItems}"/>
+                    </h:selectOneMenu>
 
                 </h:panelGrid>
 

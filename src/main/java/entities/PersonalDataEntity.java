@@ -15,13 +15,18 @@ public class PersonalDataEntity implements Serializable {
     private Date birthDate;
     private String birthPlace;
     private String photo;
+
     private Collection<AdresEntity> adresById;
     private Collection<EmailsEntity> emailsById;
-    private Collection<EngagementEntity> engagementsById;
-    private Collection<JobDataEntity> jobDataById;
-    private Collection<MembershipEntity> membershipsById;
-    private UserEntity userByUserIdId;
     private Collection<PhoneNumbersEntity> phoneNumbersById;
+
+    private Collection<JobDataEntity> jobDataById;
+
+    private Collection<EngagementEntity> engagementsById;
+    private Collection<MembershipEntity> membershipsById;
+
+    private UserEntity userByUserIdId;
+
     private Collection<UnitsEntity> unitsById;
 
     @Id
@@ -129,7 +134,7 @@ public class PersonalDataEntity implements Serializable {
         this.engagementsById = engagementsById;
     }
 
-    @OneToMany(mappedBy = "personalDataByUserId")
+    @OneToMany(mappedBy = "personalDataByUserId", fetch = FetchType.EAGER)
     public Collection<JobDataEntity> getJobDataById() {
         return jobDataById;
     }
@@ -147,7 +152,7 @@ public class PersonalDataEntity implements Serializable {
         this.membershipsById = membershipsById;
     }
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "user_id_id", referencedColumnName = "id", nullable = false)
     public UserEntity getUserByUserIdId() {
         return userByUserIdId;

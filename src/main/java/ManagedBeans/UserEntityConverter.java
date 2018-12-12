@@ -19,6 +19,13 @@ public class UserEntityConverter implements Converter {
         UserEntityManagedBean managedBean = (UserEntityManagedBean) facesContext.getApplication().getVariableResolver().resolveVariable(
                 facesContext, "userEntity");
 
+        //very slow hack
+        for(UserEntity ue : managedBean.getEntities()){
+            if(ue.getUsername().equals(string)){
+                return managedBean.findEntity(ue.getId());
+            }
+        }
+
         final int id = Integer.parseInt(string);
 
         return managedBean.findEntity(id);
@@ -30,9 +37,10 @@ public class UserEntityConverter implements Converter {
         if (object instanceof UserEntity) {
             UserEntity entity = (UserEntity) object;
 
-            final String pk = String.valueOf(entity.getId());
+            //final String pk = String.valueOf(entity.getId());
 
-            return pk;
+            //return pk;
+            return entity.getUsername();
         } else {
             throw new IllegalArgumentException("Incorrect object type: " + object.getClass().getName() + "; must be: UserEntity");
         }

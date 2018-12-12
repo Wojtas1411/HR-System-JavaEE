@@ -3,52 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="20b54374-279d-4dac-a2b7-14e46449b460" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityManagedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityManagedBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ManagedBeans/StaffCategoryEntityManagedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManagedBeans/StaffCategoryEntityManagedBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityManagedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityManagedBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ManagedBeans/UserEntityManagedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManagedBeans/UserEntityManagedBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/AdresEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/AdresEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/EngagementEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/EngagementEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/MembershipEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/MembershipEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ManagedBeans/StaffCategoryEntityConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManagedBeans/StaffCategoryEntityConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ManagedBeans/UserEntityConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManagedBeans/UserEntityConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/PhoneNumbersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/PhoneNumbersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/StaffCategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/StaffCategoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/TemporaryPersonalDataEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/TemporaryPersonalDataEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/UnitsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/UnitsEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/CreatePersonalDataEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/CreatePersonalDataEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ViewPersonalDataEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ViewPersonalDataEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/CreateUserEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/CreateUserEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/EditUserEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/EditUserEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/ViewUserEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/ViewUserEntity.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/PersonalDataEntityManagedBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/PersonalDataEntityManagedBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/StaffCategoryEntityManagedBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/StaffCategoryEntityManagedBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/UnitsEntityManagedBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/UnitsEntityManagedBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/UserEntityManagedBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/UserEntityManagedBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/AdresEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/AdresEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/EmailsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/EmailsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/EngagementEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/EngagementEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/JobDataEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/JobDataEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/MembershipEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/MembershipEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/personalDataEntity/CreatePersonalDataEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/personalDataEntity/CreatePersonalDataEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/personalDataEntity/ViewPersonalDataEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/personalDataEntity/ViewPersonalDataEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/userEntity/CreateUserEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/userEntity/CreateUserEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/userEntity/EditUserEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/userEntity/EditUserEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/userEntity/ViewUserEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/AutoFaces/userEntity/ViewUserEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/PersonalDataEntityConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/PersonalDataEntityConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/UserEntityConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/ManagedBeans/UserEntityConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/PersonalDataEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/PersonalDataEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/PhoneNumbersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/PhoneNumbersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/StaffCategoryEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/StaffCategoryEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/TemporaryPersonalDataEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/TemporaryPersonalDataEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/UnitsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/UnitsEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ManagedBeans/PersonalDataEntityManagedBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ManagedBeans/PersonalDataEntityManagedBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ManagedBeans/StaffCategoryEntityManagedBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ManagedBeans/StaffCategoryEntityManagedBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ManagedBeans/UnitsEntityManagedBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ManagedBeans/UnitsEntityManagedBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ManagedBeans/UserEntityManagedBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ManagedBeans/UserEntityManagedBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/AdresEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/AdresEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/EmailsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/EmailsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/EngagementEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/EngagementEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/JobDataEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/JobDataEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/MembershipEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/MembershipEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/UserEntity_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/UserEntity_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ManagedBeans/PersonalDataEntityConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ManagedBeans/PersonalDataEntityConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ManagedBeans/UserEntityConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ManagedBeans/UserEntityConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/entities/PersonalDataEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/PersonalDataEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/PhoneNumbersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/PhoneNumbersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/StaffCategoryEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/StaffCategoryEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/TemporaryPersonalDataEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/TemporaryPersonalDataEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/UnitsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/UnitsEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/entities/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/UserEntity_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/UserEntity_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/entities/UserEntity_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/entities/UserEntity_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,91 +80,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="299">
+              <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/EngagementEntity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+            <state relative-caret-position="-2430" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/UserEntityConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityManagedBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="441">
+              <caret line="163" column="70" selection-start-line="163" selection-start-column="70" selection-end-line="163" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/MembershipEntity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/PhoneNumbersEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/StaffCategoryEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/TemporaryPersonalDataEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/UnitsEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="255">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/UserEntity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/StaffCategoryEntityConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="209">
+              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityManagedBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/temporaryPersonalDataEntity/CreateTemporaryPersonalDataEntity.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/CreatePersonalDataEntity.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="32" column="124" selection-start-line="32" selection-start-column="124" selection-end-line="32" selection-end-column="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ViewPersonalDataEntity.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -199,17 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/temporaryPersonalDataEntity/ViewTemporaryPersonalDataEntity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/temporaryPersonalDataEntity/ListTemporaryPersonalDataEntity.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/staffCategoryEntity/ListStaffCategoryEntity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/staffCategoryEntity/EditStaffCategoryEntity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/staffCategoryEntity/CreateStaffCategoryEntity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/staffCategoryEntity/ViewStaffCategoryEntity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/phoneNumbersEntity/ViewPhoneNumbersEntity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/phoneNumbersEntity/ListPhoneNumbersEntity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/phoneNumbersEntity/EditPhoneNumbersEntity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/phoneNumbersEntity/CreatePhoneNumbersEntity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ViewPersonalDataEntity.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/EditPersonalDataEntity.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ListPersonalDataEntity.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/CreatePersonalDataEntity.jsp" />
@@ -244,12 +218,23 @@
         <option value="$PROJECT_DIR$/src/main/java/entities/EngagementEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/MembershipEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/PhoneNumbersEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/StaffCategoryEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/TemporaryPersonalDataEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/UnitsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/CreatePersonalDataEntity.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/CreateUserEntity.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/EditUserEntity.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/ViewUserEntity.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ViewPersonalDataEntity.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/UserEntityConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityConverter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/StaffCategoryEntityConverter.java" />
       </list>
     </option>
   </component>
@@ -314,7 +299,39 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="ManagedBeans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoFaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoFaces" type="462c0819:PsiDirectoryNode" />
+              <item name="temporaryPersonalDataEntity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,12 +426,12 @@
       <workItem from="1544515161856" duration="6482000" />
       <workItem from="1544537357139" duration="5451000" />
       <workItem from="1544618936277" duration="130000" />
-      <workItem from="1544637249717" duration="741000" />
+      <workItem from="1544637249717" duration="6118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33718000" />
+    <option name="totallyTimeSpent" value="39095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +446,7 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69508195" visible="true" weight="0.19337606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.69508195" visible="true" weight="0.19337606" />
       <window_info id="Structure" order="1" sideWeight="0.5010917" side_tool="true" weight="0.18055555" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.30491802" side_tool="true" visible="true" weight="0.19337606" />
@@ -440,18 +457,18 @@
       <window_info id="Web" order="8" sideWeight="0.5010917" side_tool="true" weight="0.18055555" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946582" visible="true" weight="0.33114034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.33114034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Console" order="7" sideWeight="0.49946582" weight="0.32969433" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005342" side_tool="true" weight="0.32969433" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49893162" weight="0.32969433" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50106835" side_tool="true" weight="0.33114034" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49893162" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32969433" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -474,105 +491,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/staffCategoryEntity/ViewStaffCategoryEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/staffCategoryEntity/ListStaffCategoryEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/staffCategoryEntity/EditStaffCategoryEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/staffCategoryEntity/CreateStaffCategoryEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/phoneNumbersEntity/ListPhoneNumbersEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/phoneNumbersEntity/ViewPhoneNumbersEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/phoneNumbersEntity/EditPhoneNumbersEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/phoneNumbersEntity/CreatePhoneNumbersEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ViewPersonalDataEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/CreatePersonalDataEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ListPersonalDataEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/jobDataEntity/ViewJobDataEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/jobDataEntity/ListJobDataEntity.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
@@ -716,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityManagedBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="163" column="104" selection-start-line="163" selection-start-column="104" selection-end-line="163" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/StaffCategoryEntityManagedBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -734,20 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="163" column="74" selection-start-line="163" selection-start-column="74" selection-end-line="163" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityManagedBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="163" column="70" selection-start-line="163" selection-start-column="70" selection-end-line="163" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -793,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/PhoneNumbersEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -828,10 +718,141 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ListPersonalDataEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/ViewUserEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/ListUserEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/EditUserEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/userEntity/CreateUserEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/CreatePersonalDataEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="32" column="124" selection-start-line="32" selection-start-column="124" selection-end-line="32" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/ViewPersonalDataEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2430" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/UserEntityConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityManagedBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="163" column="70" selection-start-line="163" selection-start-column="70" selection-end-line="163" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityManagedBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/temporaryPersonalDataEntity/CreateTemporaryPersonalDataEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/StaffCategoryEntityConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
         </state>
       </provider>
     </entry>

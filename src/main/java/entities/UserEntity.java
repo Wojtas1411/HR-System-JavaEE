@@ -12,7 +12,7 @@ public class UserEntity implements Serializable {
     private String username;
     private String roles;
     private String password;
-    private Collection<PersonalDataEntity> personalDataById;
+    private PersonalDataEntity personalDataById;
 
     @Id
     @Column(name = "id")
@@ -70,12 +70,12 @@ public class UserEntity implements Serializable {
         return Objects.hash(id, username, roles, password);
     }
 
-    @OneToMany(mappedBy = "userByUserIdId")
-    public Collection<PersonalDataEntity> getPersonalDataById() {
+    @OneToOne(mappedBy = "userByUserIdId", fetch = FetchType.EAGER)
+    public PersonalDataEntity getPersonalDataById() {
         return personalDataById;
     }
 
-    public void setPersonalDataById(Collection<PersonalDataEntity> personalDataById) {
+    public void setPersonalDataById(PersonalDataEntity personalDataById) {
         this.personalDataById = personalDataById;
     }
 }

@@ -19,6 +19,11 @@ public class StaffCategoryEntityConverter implements Converter {
         StaffCategoryEntityManagedBean managedBean = (StaffCategoryEntityManagedBean) facesContext.getApplication().getVariableResolver().resolveVariable(
                 facesContext, "staffCategoryEntity");
 
+        for(StaffCategoryEntity sc: managedBean.getEntities()){
+            if(sc.getName().equals(string)){
+                return managedBean.findEntity(sc.getId());
+            }
+        }
         final int id = Integer.parseInt(string);
 
         return managedBean.findEntity(id);

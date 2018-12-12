@@ -19,6 +19,13 @@ public class UnitsEntityConverter implements Converter {
         UnitsEntityManagedBean managedBean = (UnitsEntityManagedBean) facesContext.getApplication().getVariableResolver().resolveVariable(
                 facesContext, "unitsEntity");
 
+        // this hack again
+        for(UnitsEntity ue: managedBean.getEntities()){
+            if(ue.getName().equals(string)){
+                return managedBean.findEntity(ue.getId());
+            }
+        }
+
         final int id = Integer.parseInt(string);
 
         return managedBean.findEntity(id);

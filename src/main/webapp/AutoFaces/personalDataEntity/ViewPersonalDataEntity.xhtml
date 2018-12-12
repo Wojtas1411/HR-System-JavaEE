@@ -31,21 +31,20 @@
                                                    <h:outputText value="#{personalDataEntity.entity.birthPlace}" title="birthPlace" />
                                                                                                        <h:outputText value="photo:"/>
                                                    <h:outputText value="#{personalDataEntity.entity.photo}" title="photo" />
-                                                                                
+
                                                         
+                    <!--<h:outputText value="jobDataById:"/>
+                    <h:selectOneMenu value="#{personalDataEntity.entity.jobDataById}"  title="jobDataById">
+                        <f:selectItems  value="#{jobDataEntity.allEntitiesAsSelectedItems}"/>
+                    </h:selectOneMenu>-->
+
+                    <!--<h:outputText value="userByUserIdId:"/>
+                    <h:selectOneMenu value="#{personalDataEntity.entity.userByUserIdId}"  title="userByUserIdId">
+                        <f:selectItems  value="#{userEntity.allEntitiesAsSelectedItems}"/>
+                    </h:selectOneMenu>  -->
+
                                                         
-                                                                               <h:outputText value="jobDataById:"/>
-                                                   <h:selectOneMenu value="#{personalDataEntity.entity.jobDataById}"  title="jobDataById">
-                                <f:selectItems  value="#{jobDataEntity.allEntitiesAsSelectedItems}"/>
-                            </h:selectOneMenu>
-                                                                                
-                                                                               <h:outputText value="userByUserIdId:"/>
-                                                   <h:selectOneMenu value="#{personalDataEntity.entity.userByUserIdId}"  title="userByUserIdId">
-                                <f:selectItems  value="#{userEntity.allEntitiesAsSelectedItems}"/>
-                            </h:selectOneMenu>
-                                                                                
-                                                        
-                                                    </h:panelGrid>
+                </h:panelGrid>
 
                 <h:commandButton action="editPersonalDataEntity" value="Edit" />
                 <br/>

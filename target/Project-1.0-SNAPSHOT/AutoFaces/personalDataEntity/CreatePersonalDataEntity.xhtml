@@ -19,27 +19,29 @@
             <h1>Create PersonalDataEntity</h1>
             <h:form>
                 <h:panelGrid columns="2">
-                                                            <h:outputText value="id:"/>
+                    <h:outputText value="id:"/>
                                                     <h:inputText value="#{personalDataEntity.entity.id}" title="id" />
-                                                                                                        <h:outputText value="familyName:"/>
+                    <h:outputText value="familyName:"/>
                                                     <h:inputText value="#{personalDataEntity.entity.familyName}" title="familyName" />
-                                                                                                        <h:outputText value="firstName:"/>
+                    <h:outputText value="firstName:"/>
                                                     <h:inputText value="#{personalDataEntity.entity.firstName}" title="firstName" />
-                                                                                                        <h:outputText value="birthDate:"/>
+                    <h:outputText value="birthDate:"/>
                                                     <h:inputText value="#{personalDataEntity.entity.birthDate}" title="birthDate" />
-                                                                                                        <h:outputText value="birthPlace:"/>
+                    <h:outputText value="birthPlace:"/>
                                                     <h:inputText value="#{personalDataEntity.entity.birthPlace}" title="birthPlace" />
-                                                                                                        <h:outputText value="photo:"/>
+                    <h:outputText value="photo:"/>
                                                     <h:inputText value="#{personalDataEntity.entity.photo}" title="photo" />
                                                                                                                                                                                                                     <h:outputText value="jobDataById:"/>
-                                                    <h:selectOneMenu value="#{personalDataEntity.entity.jobDataById}"  title="jobDataById">
+                                            <!--        <h:selectOneMenu value="#{personalDataEntity.entity.jobDataById}"  title="jobDataById">
                                 <f:selectItems  value="#{jobDataEntity.allEntitiesAsSelectedItems}"/>
-                            </h:selectOneMenu>
-                                                                                                                                            <h:outputText value="userByUserIdId:"/>
-                                                    <h:selectOneMenu value="#{personalDataEntity.entity.userByUserIdId}"  title="userByUserIdId">
-                                <f:selectItems  value="#{userEntity.allEntitiesAsSelectedItems}"/>
-                            </h:selectOneMenu>
-                                                                                                                                                    </h:panelGrid>
+                            </h:selectOneMenu> -->
+
+                    <h:outputText value="userByUserIdId:"/>
+                    <h:selectOneMenu value="#{personalDataEntity.entity.userByUserIdId}"  title="userByUserIdId">
+                        <f:selectItems  value="#{userEntity.allEntitiesAsSelectedItems}"/>
+                    </h:selectOneMenu>
+
+                </h:panelGrid>
 
                 <h:commandButton action="#{personalDataEntity.create}" value="Save" />
                 <h:commandButton action="personalDataEntityList" value="Cancel"/>

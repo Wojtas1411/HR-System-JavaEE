@@ -35,10 +35,10 @@
                     <h:outputText value="password:"/>
                     <h:inputText value="#{userEntity.entity.password}" title="password" />
 
-                    <h:outputText value="personalDataById:"/>
+                    <!--<h:outputText value="personalDataById:"/>
                     <h:selectOneMenu value="#{userEntity.entity.personalDataById}"  title="personalDataById">
                         <f:selectItems  value="#{personalDataEntity.allEntitiesAsSelectedItems}"/>
-                    </h:selectOneMenu>
+                    </h:selectOneMenu>-->
                 </h:panelGrid>
 
                 <h:commandButton action="#{userEntity.create}" value="Save" />

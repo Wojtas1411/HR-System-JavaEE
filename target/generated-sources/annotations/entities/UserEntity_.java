@@ -1,7 +1,6 @@
 package entities;
 
 import javax.annotation.Generated;
-import javax.persistence.metamodel.CollectionAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
@@ -11,7 +10,7 @@ public abstract class UserEntity_ {
 
 	public static volatile SingularAttribute<UserEntity, String> password;
 	public static volatile SingularAttribute<UserEntity, String> roles;
-	public static volatile CollectionAttribute<UserEntity, PersonalDataEntity> personalDataById;
+	public static volatile SingularAttribute<UserEntity, PersonalDataEntity> personalDataById;
 	public static volatile SingularAttribute<UserEntity, Integer> id;
 	public static volatile SingularAttribute<UserEntity, String> username;
 

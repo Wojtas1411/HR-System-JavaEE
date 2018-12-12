@@ -19,6 +19,16 @@ public class PersonalDataEntityConverter implements Converter {
         PersonalDataEntityManagedBean managedBean = (PersonalDataEntityManagedBean) facesContext.getApplication().getVariableResolver().resolveVariable(
                 facesContext, "personalDataEntity");
 
+        //very slow hack again
+        String[] temp = string.split(" ");
+        String family = temp[0];
+        String first = temp[1];
+        for(PersonalDataEntity pd: managedBean.getEntities()){
+            if(pd.getFamilyName().equals(family) && pd.getFirstName().equals(first)){
+                return managedBean.findEntity(pd.getId());
+            }
+        }
+
         final int id = Integer.parseInt(string);
 
         return managedBean.findEntity(id);

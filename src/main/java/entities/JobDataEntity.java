@@ -1,12 +1,13 @@
 package entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.sql.Date;
 import java.util.Objects;
 
 @Entity
 @Table(name = "job_data", schema = "javaee", catalog = "")
-public class JobDataEntity {
+public class JobDataEntity implements Serializable {
     private int id;
     private Date startContract;
     private Date endContract;

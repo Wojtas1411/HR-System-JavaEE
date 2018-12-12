@@ -161,7 +161,7 @@ public class StaffCategoryEntityManagedBean {
         SelectItem selectItems[] = new SelectItem[entities.size()];
         int i = 0;
         for (StaffCategoryEntity entity : entities) {
-            selectItems[i++] = new SelectItem(entity);
+            selectItems[i++] = new SelectItem(entity, entity.getName());
         }
         return selectItems;
     }

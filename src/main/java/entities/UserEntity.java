@@ -1,12 +1,13 @@
 package entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Objects;
 
 @Entity
 @Table(name = "user", schema = "javaee", catalog = "")
-public class UserEntity {
+public class UserEntity implements Serializable {
     private int id;
     private String username;
     private String roles;

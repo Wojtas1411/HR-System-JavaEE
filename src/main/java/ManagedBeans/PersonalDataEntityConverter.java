@@ -30,9 +30,10 @@ public class PersonalDataEntityConverter implements Converter {
         if (object instanceof PersonalDataEntity) {
             PersonalDataEntity entity = (PersonalDataEntity) object;
 
-            final String pk = String.valueOf(entity.getId());
+            //final String pk = String.valueOf(entity.getId());
 
-            return pk;
+            //return pk;
+            return entity.getFamilyName()+" "+entity.getFirstName();
         } else {
             throw new IllegalArgumentException("Incorrect object type: " + object.getClass().getName() + "; must be: PersonalDataEntity");
         }

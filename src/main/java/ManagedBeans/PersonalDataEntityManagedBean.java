@@ -161,7 +161,7 @@ public class PersonalDataEntityManagedBean {
         SelectItem selectItems[] = new SelectItem[entities.size()];
         int i = 0;
         for (PersonalDataEntity entity : entities) {
-            selectItems[i++] = new SelectItem(entity);
+            selectItems[i++] = new SelectItem(entity, entity.getFamilyName()+" "+entity.getFirstName());
         }
         return selectItems;
     }

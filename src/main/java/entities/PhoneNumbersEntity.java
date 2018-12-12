@@ -1,11 +1,12 @@
 package entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
 @Table(name = "phone_numbers", schema = "javaee", catalog = "")
-public class PhoneNumbersEntity {
+public class PhoneNumbersEntity implements Serializable {
     private int id;
     private byte prim;
     private String value;

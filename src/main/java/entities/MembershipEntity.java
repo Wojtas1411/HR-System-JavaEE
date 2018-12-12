@@ -1,11 +1,12 @@
 package entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
 @Table(name = "membership", schema = "javaee", catalog = "")
-public class MembershipEntity {
+public class MembershipEntity implements Serializable {
     private int id;
     private int workingHoursPerWeek;
     private PersonalDataEntity personalDataByPersonId;

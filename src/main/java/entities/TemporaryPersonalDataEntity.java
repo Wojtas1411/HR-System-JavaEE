@@ -1,13 +1,14 @@
 package entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.Objects;
 
 @Entity
 @Table(name = "temporary_personal_data", schema = "javaee", catalog = "")
-public class TemporaryPersonalDataEntity {
+public class TemporaryPersonalDataEntity implements Serializable {
     private int id;
     private Timestamp timestamp;
     private String userId;

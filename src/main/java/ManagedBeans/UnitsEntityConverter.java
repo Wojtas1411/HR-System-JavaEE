@@ -30,9 +30,10 @@ public class UnitsEntityConverter implements Converter {
         if (object instanceof UnitsEntity) {
             UnitsEntity entity = (UnitsEntity) object;
 
-            final String pk = String.valueOf(entity.getId());
+            //final String pk = String.valueOf(entity.getId());
 
-            return pk;
+            //return pk;
+            return entity.getName();
         } else {
             throw new IllegalArgumentException("Incorrect object type: " + object.getClass().getName() + "; must be: UnitsEntity");
         }

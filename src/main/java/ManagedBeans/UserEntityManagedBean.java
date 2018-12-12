@@ -161,7 +161,7 @@ public class UserEntityManagedBean {
         SelectItem selectItems[] = new SelectItem[entities.size()];
         int i = 0;
         for (UserEntity entity : entities) {
-            selectItems[i++] = new SelectItem(entity);
+            selectItems[i++] = new SelectItem(entity, entity.getUsername());
         }
         return selectItems;
     }

@@ -2,7 +2,8 @@ package entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.sql.Date;
+//import java.sql.Date;
+import java.util.Date;
 import java.sql.Timestamp;
 import java.util.Objects;
 

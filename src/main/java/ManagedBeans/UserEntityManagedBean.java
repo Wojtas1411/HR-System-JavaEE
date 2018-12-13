@@ -1,5 +1,6 @@
 package ManagedBeans;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -15,7 +16,7 @@ import javax.persistence.Query;
 
 import entities.UserEntity;
 
-public class UserEntityManagedBean {
+public class UserEntityManagedBean implements Serializable {
     final public static String SELECT_ALL_ENTITIES_SQL = "SELECT o FROM UserEntity AS o";
 
     private UserEntity myEntity;
@@ -158,10 +159,11 @@ public class UserEntityManagedBean {
 
     public SelectItem[] getAllEntitiesAsSelectedItems() {
         List<UserEntity> entities = getEntities();
-        SelectItem selectItems[] = new SelectItem[entities.size()];
+        SelectItem[] selectItems = new SelectItem[entities.size()-1];
+        //selectItems[0] = new SelectItem(null, "None"); //add none option
         int i = 0;
         for (UserEntity entity : entities) {
-            selectItems[i++] = new SelectItem(entity, entity.getUsername());
+            if(!entity.getUsername().equals("admin")) selectItems[i++] = new SelectItem(entity, entity.getUsername());
         }
         return selectItems;
     }

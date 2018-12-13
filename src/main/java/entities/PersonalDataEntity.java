@@ -2,7 +2,8 @@ package entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.sql.Date;
+//import java.sql.Date;
+import java.util.Date;
 import java.util.Collection;
 import java.util.Objects;
 
@@ -65,9 +66,7 @@ public class PersonalDataEntity implements Serializable {
         return birthDate;
     }
 
-    public void setBirthDate(Date birthDate) {
-        this.birthDate = birthDate;
-    }
+    public void setBirthDate(Date birthDate) { this.birthDate = birthDate; }
 
     @Basic
     @Column(name = "birth_place")

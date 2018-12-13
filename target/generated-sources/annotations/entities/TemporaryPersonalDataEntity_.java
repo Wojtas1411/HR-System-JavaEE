@@ -1,7 +1,7 @@
 package entities;
 
-import java.sql.Date;
 import java.sql.Timestamp;
+import java.util.Date;
 import javax.annotation.Generated;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;

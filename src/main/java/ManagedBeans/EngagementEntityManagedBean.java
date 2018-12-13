@@ -1,5 +1,6 @@
 package ManagedBeans;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -15,7 +16,7 @@ import javax.persistence.Query;
 
 import entities.EngagementEntity;
 
-public class EngagementEntityManagedBean {
+public class EngagementEntityManagedBean implements Serializable {
     final public static String SELECT_ALL_ENTITIES_SQL = "SELECT o FROM EngagementEntity AS o";
 
     private EngagementEntity myEntity;

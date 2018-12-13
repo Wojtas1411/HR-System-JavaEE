@@ -54,7 +54,9 @@
                       <f:facet name="header">
                       <h:outputText value="birthDate"/>
                       </f:facet>
-                      <h:outputText value="#{item.birthDate}"/>
+                      <h:outputText value="#{item.birthDate}">
+                          <f:convertDateTime pattern="yyyy.MM.dd" />
+                      </h:outputText>
                   </h:column>
                                                                         <h:column>
                       <f:facet name="header">

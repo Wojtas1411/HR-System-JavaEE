@@ -26,7 +26,9 @@
                                                                                                        <h:outputText value="firstName:"/>
                                                    <h:outputText value="#{personalDataEntity.entity.firstName}" title="firstName" />
                                                                                                        <h:outputText value="birthDate:"/>
-                                                   <h:outputText value="#{personalDataEntity.entity.birthDate}" title="birthDate" />
+                                                   <h:outputText value="#{personalDataEntity.entity.birthDate}" title="birthDate" >
+                                                       <f:convertDateTime pattern="yyyy.MM.dd" />
+                                                   </h:outputText>
                                                                                                        <h:outputText value="birthPlace:"/>
                                                    <h:outputText value="#{personalDataEntity.entity.birthPlace}" title="birthPlace" />
                                                                                                        <h:outputText value="photo:"/>

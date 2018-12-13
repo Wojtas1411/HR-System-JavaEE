@@ -30,7 +30,9 @@
                                                                                                        <h:outputText value="firstName:"/>
                                                    <h:outputText value="#{temporaryPersonalDataEntity.entity.firstName}" title="firstName" />
                                                                                                        <h:outputText value="birthDate:"/>
-                                                   <h:outputText value="#{temporaryPersonalDataEntity.entity.birthDate}" title="birthDate" />
+                                                   <h:outputText value="#{temporaryPersonalDataEntity.entity.birthDate}" title="birthDate" >
+                                                       <f:convertDateTime pattern="yyyy.MM.dd" />
+                                                   </h:outputText>
                                                                                                        <h:outputText value="birthPlace:"/>
                                                    <h:outputText value="#{temporaryPersonalDataEntity.entity.birthPlace}" title="birthPlace" />
                                                                                                        <h:outputText value="photo:"/>

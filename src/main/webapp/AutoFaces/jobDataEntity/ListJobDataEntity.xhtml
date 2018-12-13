@@ -30,13 +30,17 @@
                       <f:facet name="header">
                       <h:outputText value="startContract"/>
                       </f:facet>
-                      <h:outputText value="#{item.startContract}"/>
+                      <h:outputText value="#{item.startContract}">
+                          <f:convertDateTime pattern="yyyy.MM.dd" />
+                      </h:outputText>
                   </h:column>
                                                                         <h:column>
                       <f:facet name="header">
                       <h:outputText value="endContract"/>
                       </f:facet>
-                      <h:outputText value="#{item.endContract}"/>
+                      <h:outputText value="#{item.endContract}">
+                          <f:convertDateTime pattern="yyyy.MM.dd" />
+                      </h:outputText>
                   </h:column>
                                                                         <h:column>
                       <f:facet name="header">

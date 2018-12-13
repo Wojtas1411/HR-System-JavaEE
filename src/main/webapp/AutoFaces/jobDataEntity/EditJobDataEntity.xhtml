@@ -22,9 +22,13 @@
                                     <h:outputText value="id:"/>
                                                                         <h:inputText value="#{jobDataEntity.entity.id}" title="id" />
                                                                                 <h:outputText value="startContract:"/>
-                                                                        <h:inputText value="#{jobDataEntity.entity.startContract}" title="startContract" />
+                                                                        <h:inputText value="#{jobDataEntity.entity.startContract}" title="startContract" >
+                                                                            <f:convertDateTime pattern="yyyy-MM-dd"/>
+                                                                        </h:inputText>
                                                                                 <h:outputText value="endContract:"/>
-                                                                        <h:inputText value="#{jobDataEntity.entity.endContract}" title="endContract" />
+                                                                        <h:inputText value="#{jobDataEntity.entity.endContract}" title="endContract" >
+                                                                            <f:convertDateTime pattern="yyyy-MM-dd"/>
+                                                                        </h:inputText>
                                                                                 <h:outputText value="monthlySalary:"/>
                                                                         <h:inputText value="#{jobDataEntity.entity.monthlySalary}" title="monthlySalary" />
                                                                                 <h:outputText value="workingHoursPerWeek:"/>

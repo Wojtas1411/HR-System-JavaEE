@@ -105,9 +105,18 @@
         <managed-bean-class>ManagedBeans.UserEntityManagedBean</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
+    <managed-bean>
+        <managed-bean-name>chartsView</managed-bean-name>
+        <managed-bean-class>plots.ChartView</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
 
     <navigation-rule>
         <from-view-id>*</from-view-id>
+        <navigation-case>
+            <from-outcome>charts</from-outcome>
+            <to-view-id>/Charts/charts.xhtml</to-view-id>
+        </navigation-case>
         <navigation-case>
             <from-outcome>editAdresEntity</from-outcome>
             <to-view-id>/AutoFaces/adresEntity/EditAdresEntity.xhtml</to-view-id>

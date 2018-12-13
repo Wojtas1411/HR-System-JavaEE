@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui" xml:lang="en" lang="en">
+
+<ui:composition template="/templates/base.xhtml">
+
+    <ui:define name="title">Charts</ui:define>
+
+    <ui:define name="content">
+        <h1>Charts</h1>
+        <br/>
+        <p:chart type="bar" model="#{chartsView.chart1}" style="height:300px;width:800px"/>
+        <br/>
+        <p:chart type="bar" model="#{chartsView.chart2}" style="height:300px;width:800px"/>
+        <br/>
+        <p:chart type="bar" model="#{chartsView.chart3}" style="height:300px;width:800px"/>
+        <br/>
+        <p:chart type="pie" model="#{chartsView.chart4}" style="height:300px;width:800px"/>
+    </ui:define>
+</ui:composition>
+</html>

@@ -16,6 +16,7 @@ entities/StaffCategoryEntity.class
 entities/PhoneNumbersEntity_.class
 entities/UserEntity_.class
 entities/EngagementEntity_.class
+plots/ChartView.class
 entities/MembershipEntity.class
 ManagedBeans/MembershipEntityManagedBean.class
 ManagedBeans/UserEntityManagedBean.class

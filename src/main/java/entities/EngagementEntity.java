@@ -34,7 +34,7 @@ public class EngagementEntity implements Serializable {
         return Objects.hash(id);
     }
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "person_id", referencedColumnName = "id", nullable = false)
     public PersonalDataEntity getPersonalDataByPersonId() {
         return personalDataByPersonId;

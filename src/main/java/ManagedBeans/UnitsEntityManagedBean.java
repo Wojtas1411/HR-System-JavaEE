@@ -159,9 +159,9 @@ public class UnitsEntityManagedBean implements Serializable {
 
     public SelectItem[] getAllEntitiesAsSelectedItems() {
         List<UnitsEntity> entities = getEntities();
-        SelectItem[] selectItems = new SelectItem[entities.size()];
-        //selectItems[0] = new SelectItem(null, "None"); //add none option
-        int i = 0;
+        SelectItem[] selectItems = new SelectItem[entities.size()+1];
+        selectItems[0] = new SelectItem(null, "None"); //add none option
+        int i = 1;
         for (UnitsEntity entity : entities) {
             selectItems[i++] = new SelectItem(entity, entity.getName());
         }

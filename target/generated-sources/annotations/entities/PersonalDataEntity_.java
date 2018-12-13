@@ -12,14 +12,14 @@ public abstract class PersonalDataEntity_ {
 
 	public static volatile SingularAttribute<PersonalDataEntity, UserEntity> userByUserIdId;
 	public static volatile CollectionAttribute<PersonalDataEntity, PhoneNumbersEntity> phoneNumbersById;
-	public static volatile CollectionAttribute<PersonalDataEntity, JobDataEntity> jobDataById;
+	public static volatile SingularAttribute<PersonalDataEntity, JobDataEntity> jobDataById;
 	public static volatile SingularAttribute<PersonalDataEntity, String> photo;
 	public static volatile SingularAttribute<PersonalDataEntity, Date> birthDate;
 	public static volatile CollectionAttribute<PersonalDataEntity, MembershipEntity> membershipsById;
 	public static volatile SingularAttribute<PersonalDataEntity, String> firstName;
 	public static volatile SingularAttribute<PersonalDataEntity, String> birthPlace;
 	public static volatile CollectionAttribute<PersonalDataEntity, EmailsEntity> emailsById;
-	public static volatile CollectionAttribute<PersonalDataEntity, EngagementEntity> engagementsById;
+	public static volatile SingularAttribute<PersonalDataEntity, EngagementEntity> engagementsById;
 	public static volatile SingularAttribute<PersonalDataEntity, String> familyName;
 	public static volatile CollectionAttribute<PersonalDataEntity, AdresEntity> adresById;
 	public static volatile SingularAttribute<PersonalDataEntity, Integer> id;

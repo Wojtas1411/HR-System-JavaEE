@@ -107,7 +107,7 @@ public class JobDataEntity implements Serializable {
         return Objects.hash(id, startContract, endContract, monthlySalary, workingHoursPerWeek, bankInfo, bankAccountNumber);
     }
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "user_id", referencedColumnName = "id", nullable = false)
     public PersonalDataEntity getPersonalDataByUserId() {
         return personalDataByUserId;

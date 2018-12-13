@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-@Table(name = "personal_data", schema = "javaee", catalog = "")
+@Table(name = "personal_data", schema = "javaee")
 public class PersonalDataEntity implements Serializable {
     private int id;
     private String familyName;
@@ -21,9 +21,9 @@ public class PersonalDataEntity implements Serializable {
     private Collection<EmailsEntity> emailsById;
     private Collection<PhoneNumbersEntity> phoneNumbersById;
 
-    private Collection<JobDataEntity> jobDataById;
+    private JobDataEntity jobDataById;
 
-    private Collection<EngagementEntity> engagementsById;
+    private EngagementEntity engagementsById;
     private Collection<MembershipEntity> membershipsById;
 
     private UserEntity userByUserIdId;
@@ -124,21 +124,21 @@ public class PersonalDataEntity implements Serializable {
         this.emailsById = emailsById;
     }
 
-    @OneToMany(mappedBy = "personalDataByPersonId")
-    public Collection<EngagementEntity> getEngagementsById() {
+    @OneToOne(mappedBy = "personalDataByPersonId")
+    public EngagementEntity getEngagementsById() {
         return engagementsById;
     }
 
-    public void setEngagementsById(Collection<EngagementEntity> engagementsById) {
+    public void setEngagementsById(EngagementEntity engagementsById) {
         this.engagementsById = engagementsById;
     }
 
-    @OneToMany(mappedBy = "personalDataByUserId", fetch = FetchType.EAGER)
-    public Collection<JobDataEntity> getJobDataById() {
+    @OneToOne(mappedBy = "personalDataByUserId", fetch = FetchType.EAGER)
+    public JobDataEntity getJobDataById() {
         return jobDataById;
     }
 
-    public void setJobDataById(Collection<JobDataEntity> jobDataById) {
+    public void setJobDataById(JobDataEntity jobDataById) {
         this.jobDataById = jobDataById;
     }
 

@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"></meta>
-    <title>Title</title>
-</head>
-<body>
-<p>Hello World!</p>
-</body>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+
+<ui:composition template="/templates/base.xhtml">
+
+    <ui:define name="title">Home</ui:define>
+
+    <ui:define name="content">
+        Welcome to HR Sytem!
+        <br/>
+
+    </ui:define>
+</ui:composition>
+
 </html>

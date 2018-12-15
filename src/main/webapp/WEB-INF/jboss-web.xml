@@ -6,4 +6,8 @@
                   http://www.jboss.org/j2ee/schema/jboss-web_10_0.xsd">
   
     <context-root>/HR-System</context-root>
+
+    <!--logout-->
+    <security-domain>hr-system-app</security-domain>
+
 </jboss-web>

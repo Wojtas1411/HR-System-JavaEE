@@ -97,7 +97,7 @@ public class ChartView implements Serializable {
 
         chart1.addSeries(serie1);
 
-        chart1.setTitle("Plot 1");
+        chart1.setTitle("Plot 1 - Number of employees per Unit");
         chart1.setLegendPosition("ne");
 
         Axis xAxis = chart1.getAxis(AxisType.X);
@@ -136,7 +136,7 @@ public class ChartView implements Serializable {
 
         chart2.addSeries(serie1);
 
-        chart2.setTitle("Plot 2");
+        chart2.setTitle("Plot 2 - Number of employees per Category");
         chart2.setLegendPosition("ne");
 
         Axis xAxis = chart2.getAxis(AxisType.X);
@@ -181,7 +181,7 @@ public class ChartView implements Serializable {
 
         chart3.addSeries(serie1);
 
-        chart3.setTitle("Plot 3");
+        chart3.setTitle("Plot 3 - Average working hours per week per staff category");
         chart3.setLegendPosition("ne");
 
         Axis xAxis = chart3.getAxis(AxisType.X);

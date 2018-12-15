@@ -326,6 +326,8 @@ CREATE TABLE `temporary_personal_data` (
 -- Table structure for table `units`
 --
 
-
-
+--
+-- modify roles
+--
+ALTER TABLE user MODIFY COLUMN roles VARCHAR(255);
 

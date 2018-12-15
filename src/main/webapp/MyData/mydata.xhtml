@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://java.sun.com/jstl/core">
+
+<ui:composition template="/templates/base.xhtml">
+    <ui:define name="title">My Data</ui:define>
+    <ui:define name="content">
+        <c:choose>
+            <c:when test="#{empty security.currentUserEntity.personalDataById}">
+                No data available
+            </c:when>
+            <c:otherwise>
+                <h:panelGrid columns="2">
+                    <h:outputText value="First Name"/>
+                    <h:outputText value="#{security.currentUserEntity.personalDataById.firstName}"/>
+                    <h:outputText value="Family Name"/>
+                    <h:outputText value="#{security.currentUserEntity.personalDataById.familyName}"/>
+                    <h:outputText value="Birth Date"/>
+                    <h:outputText value="#{security.currentUserEntity.personalDataById.birthDate}" >
+                        <f:convertDateTime pattern="yyyy.MM.dd" />
+                    </h:outputText>
+                    <h:outputText value="Birth Place"/>
+                    <h:outputText value="#{security.currentUserEntity.personalDataById.birthPlace}" />
+                    <h:outputText value="Photo"/>
+                    <h:outputText value="#{security.currentUserEntity.personalDataById.photo}" />
+                    <h:outputText value="Engagement"/>
+                    <h:outputText value="#{security.currentUserEntity.personalDataById.engagementsById.staffCategoryByStaffCategoryId.name}"/>
+                </h:panelGrid>
+                <!--emails-->
+
+                <!--phoneNumbers-->
+
+                <!--adresses-->
+
+            </c:otherwise>
+        </c:choose>
+
+    </ui:define>
+</ui:composition>
+</html>

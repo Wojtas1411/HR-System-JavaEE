@@ -29,18 +29,26 @@
     <p:menubar>
         <p:menuitem value="Home" url="/"/>
         <p:menuitem value="AutoFaces" url="/AutoFaces"/>
+        <p:menuitem value="My Data" url="/MyData/mydata.xhtml"/>
+        <p:menuitem value="Users" url="/AutoFaces/userEntity/ListUserEntity.xhtml"/>
+        <p:menuitem action="personalDataEntityList" value="Personal Data"/>
+        <p:menuitem action="jobDataEntityList" value="Job Data"/>
+
         <p:menuitem action="adresEntityList" value="Addresses"/>
         <p:menuitem action="emailsEntityList" value="Emails"/>
+        <p:menuitem action="phoneNumbersEntityList" value="Phone Numbers "/>
+
         <p:menuitem action="engagementEntityList" value="Engagement"/>
         <p:menuitem action="membershipEntityList" value="Memberships"/>
-        <p:menuitem action="phoneNumbersEntityList" value="Phone Numbers "/>
-        <p:menuitem action="personalDataEntityList" value="Personal Data"/>
-        <p:menuitem action="temporaryPersonalDataEntityList" value="Temporary Personal Data"/>
-        <p:menuitem action="jobDataEntityList" value="Job Data"/>
+
         <p:menuitem action="staffCategoryEntityList" value="Staff Categories"/>
         <p:menuitem action="unitsEntityList" value="Units"/>
-        <p:menuitem action="userEntityList" value="Users"/>
+
         <p:menuitem action="charts" value="Charts"/>
+
+        <p:menuitem action="temporaryPersonalDataEntityList" value="Temporary Personal Data"/>
+
+        <p:menuitem url="/logout" value="Logout"/>
     </p:menubar>
 
 </h:form>

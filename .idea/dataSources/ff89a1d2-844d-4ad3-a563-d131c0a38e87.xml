@@ -1673,8 +1673,7 @@
     </column>
     <column id="382" parent="284" name="roles">
       <Position>3</Position>
-      <DataType>json|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="383" parent="284" name="password">

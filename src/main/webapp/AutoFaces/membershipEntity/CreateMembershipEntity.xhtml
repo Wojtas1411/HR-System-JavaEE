@@ -19,19 +19,21 @@
             <h1>Create MembershipEntity</h1>
             <h:form>
                 <h:panelGrid columns="2">
-                                                            <h:outputText value="id:"/>
-                                                    <h:inputText value="#{membershipEntity.entity.id}" title="id" />
-                                                                                                        <h:outputText value="workingHoursPerWeek:"/>
-                                                    <h:inputText value="#{membershipEntity.entity.workingHoursPerWeek}" title="workingHoursPerWeek" />
-                                                                                                        <h:outputText value="personalDataByPersonId:"/>
-                                                    <h:selectOneMenu value="#{membershipEntity.entity.personalDataByPersonId}"  title="personalDataByPersonId">
-                                <f:selectItems  value="#{personalDataEntity.allEntitiesAsSelectedItems}"/>
-                            </h:selectOneMenu>
-                                                                                                        <h:outputText value="unitsByUnitId:"/>
-                                                    <h:selectOneMenu value="#{membershipEntity.entity.unitsByUnitId}"  title="unitsByUnitId">
-                                <f:selectItems  value="#{unitsEntity.allEntitiesAsSelectedItems}"/>
-                            </h:selectOneMenu>
-                                                                            </h:panelGrid>
+                    <h:outputText value="id:"/>
+                    <h:inputText value="#{membershipEntity.entity.id}" title="id" />
+                    <h:outputText value="workingHoursPerWeek:"/>
+                    <h:inputText value="#{membershipEntity.entity.workingHoursPerWeek}" title="workingHoursPerWeek" >
+                        <f:validateLongRange minimum="1" maximum="#{membershipEntity.magicValue}"/>
+                    </h:inputText>
+                    <h:outputText value="personalDataByPersonId:"/>
+                    <h:selectOneMenu value="#{membershipEntity.entity.personalDataByPersonId}"  title="personalDataByPersonId">
+                        <f:selectItems  value="#{personalDataEntity.allEntitiesAsSelectedItems}"/>
+                    </h:selectOneMenu>
+                    <h:outputText value="unitsByUnitId:"/>
+                    <h:selectOneMenu value="#{membershipEntity.entity.unitsByUnitId}"  title="unitsByUnitId">
+                        <f:selectItems  value="#{unitsEntity.allEntitiesAsSelectedItems}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
 
                 <h:commandButton action="#{membershipEntity.create}" value="Save" />
                 <h:commandButton action="membershipEntityList" value="Cancel"/>

@@ -1,13 +1,17 @@
 package entities;
 
 import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
-@Table(name = "membership", schema = "javaee", catalog = "")
+@Table(name = "membership", schema = "javaee")
 public class MembershipEntity implements Serializable {
     private int id;
+    @Min(1)
+    @Max(40)
     private int workingHoursPerWeek;
     private PersonalDataEntity personalDataByPersonId;
     private UnitsEntity unitsByUnitId;

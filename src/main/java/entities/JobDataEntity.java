@@ -1,18 +1,24 @@
 package entities;
 
 import javax.persistence.*;
+import javax.validation.constraints.*;
 import java.io.Serializable;
 //import java.sql.Date;
 import java.util.Date;
 import java.util.Objects;
 
 @Entity
-@Table(name = "job_data", schema = "javaee", catalog = "")
+@Table(name = "job_data", schema = "javaee")
 public class JobDataEntity implements Serializable {
     private int id;
+    @Past
     private Date startContract;
+    @Future
     private Date endContract;
+    @Digits(integer = 8, fraction = 0)
     private int monthlySalary;
+    @Min(1)
+    @Max(40)
     private int workingHoursPerWeek;
     private String bankInfo;
     private String bankAccountNumber;

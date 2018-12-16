@@ -1,32 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20b54374-279d-4dac-a2b7-14e46449b460" name="Default Changelist" comment="my-units section finished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/users/MyDataBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/users/ReviewEditRequestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MyData/edit_mydata.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Review/review_edit_request.xhtml" afterDir="false" />
+    <list default="true" id="20b54374-279d-4dac-a2b7-14e46449b460" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/AdresEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/AdresEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ManagedBeans/MembershipEntityManagedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ManagedBeans/MembershipEntityManagedBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/PhoneNumbersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/PhoneNumbersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/users/SecurityBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/users/SecurityBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MyData/mydata.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyData/mydata.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/base.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/base.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/AdresEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/AdresEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/EmailsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/EmailsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/PhoneNumbersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/classes/entities/PhoneNumbersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/faces-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Project-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/AdresEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/AdresEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/EmailsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/EmailsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/PhoneNumbersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/PhoneNumbersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/MembershipEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/MembershipEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/CreateMembershipEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/CreateMembershipEntity.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/EditMembershipEntity.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/EditMembershipEntity.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,75 +39,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/base.xhtml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="780">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+            <state relative-caret-position="135">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/users/MyDataBean.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/MembershipEntityManagedBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="71" column="71" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="71" />
+            <state relative-caret-position="586">
+              <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/CreateMembershipEntity.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/EditMembershipEntity.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/MyData/edit_mydata.xhtml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entities/MembershipEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+            <state relative-caret-position="270">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Review/review_edit_request.xhtml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/users/ReviewEditRequestBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-451">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3245#3246#0" expanded="true" />
-                <element signature="e#3291#3292#0" expanded="true" />
-                <element signature="e#3328#3329#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/TemporaryPersonalDataEntityManagedBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="1110">
               <caret line="94" column="30" selection-start-line="81" selection-start-column="8" selection-end-line="94" selection-end-column="30" />
             </state>
           </provider>
@@ -157,16 +143,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/jobDataEntity/ListJobDataEntity.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/temporaryPersonalDataEntity/ViewTemporaryPersonalDataEntity.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/jobDataEntity/CreateJobDataEntity.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/jobDataEntity/EditJobDataEntity.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/temporaryPersonalDataEntity/CreateTemporaryPersonalDataEntity.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/temporaryPersonalDataEntity/EditTemporaryPersonalDataEntity.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/EngagementEntityManagedBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/EmailsEntityManagedBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/JobDataEntityManagedBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/MembershipEntityManagedBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityManagedBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/PhoneNumbersEntityManagedBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/StaffCategoryEntityManagedBean.java" />
@@ -175,9 +156,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/UserEntityManagedBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/templates/base.html" />
         <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/UnitsEntityManagedBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/EngagementEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/Charts/charts.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/plots/ChartView.java" />
@@ -197,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/main/java/users/SecurityBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/AdresEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/PhoneNumbersEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/MyData/mydata.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/users/MyDataBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/MyData/edit_mydata.xhtml" />
@@ -208,6 +186,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/Review/review_edit_request.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/templates/base.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/users/ReviewEditRequestBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/users/WorkingHoursValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/MembershipEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ManagedBeans/MembershipEntityManagedBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/EditMembershipEntity.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/CreateMembershipEntity.xhtml" />
       </list>
     </option>
   </component>
@@ -241,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -288,7 +275,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="MyData" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoFaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoFaces" type="462c0819:PsiDirectoryNode" />
+              <item name="membershipEntity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
@@ -318,7 +314,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,7 +322,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="ff89a1d2-844d-4ad3-a563-d131c0a38e87" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544970033365" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544992576417" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/AutoFaces2" />
@@ -416,7 +411,8 @@
       <workItem from="1544721560995" duration="4525000" />
       <workItem from="1544869363072" duration="15057000" />
       <workItem from="1544899798047" duration="9032000" />
-      <workItem from="1544951752385" duration="15324000" />
+      <workItem from="1544951752385" duration="15443000" />
+      <workItem from="1544987069876" duration="3469000" />
     </task>
     <task id="LOCAL-00001" summary="asObject methods of converters improved">
       <created>1544643893826</created>
@@ -460,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544959178852</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit data requests and reviews added">
+      <created>1544970800228</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544970800228</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94777000" />
+    <option name="totallyTimeSpent" value="98365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,12 +480,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6885246" visible="true" weight="0.19551282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6875" visible="true" weight="0.19551282" />
       <window_info id="Structure" order="1" sideWeight="0.5010917" side_tool="true" weight="0.18055555" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" sideWeight="0.3114754" side_tool="true" visible="true" weight="0.19551282" />
+      <window_info id="Persistence" order="3" sideWeight="0.3125" side_tool="true" visible="true" weight="0.19551282" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5010917" side_tool="true" weight="0.18055555" />
@@ -490,7 +492,7 @@
       <window_info id="Web" order="8" sideWeight="0.5010917" side_tool="true" weight="0.18055555" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.33114034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893162" weight="0.33114034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,6 +546,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asObject methods of converters improved" />
@@ -552,48 +568,15 @@
     <MESSAGE value="basic security added" />
     <MESSAGE value="my-data section finished" />
     <MESSAGE value="my-units section finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="my-units section finished" />
+    <MESSAGE value="edit data requests and reviews added" />
+    <MESSAGE value="special validation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="special validation added" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/personalDataEntity/EditPersonalDataEntity.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="30" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/EngagementEntityManagedBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/EmailsEntityManagedBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/JobDataEntityManagedBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/MembershipEntityManagedBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/PersonalDataEntityManagedBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -618,68 +601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1290">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1946#1947#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2616#2617#0" expanded="true" />
-            <element signature="e#2708#2709#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2843#2844#0" expanded="true" />
-            <element signature="e#2910#2911#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3160#3161#0" expanded="true" />
-            <element signature="e#3204#3205#0" expanded="true" />
-            <element signature="e#3320#3321#0" expanded="true" />
-            <element signature="e#3358#3359#0" expanded="true" />
-            <element signature="e#3394#3395#0" expanded="true" />
-            <element signature="e#3448#3449#0" expanded="true" />
-            <element signature="e#3628#3629#0" expanded="true" />
-            <element signature="e#3662#3663#0" expanded="true" />
-            <element signature="e#3735#3736#0" expanded="true" />
-            <element signature="e#3781#3782#0" expanded="true" />
-            <element signature="e#3897#3898#0" expanded="true" />
-            <element signature="e#3935#3936#0" expanded="true" />
-            <element signature="e#4216#4217#0" expanded="true" />
-            <element signature="e#4253#4254#0" expanded="true" />
-            <element signature="e#4317#4318#0" expanded="true" />
-            <element signature="e#4369#4370#0" expanded="true" />
-            <element signature="e#4486#4487#0" expanded="true" />
-            <element signature="e#4525#4526#0" expanded="true" />
-            <element signature="e#4772#4773#0" expanded="true" />
-            <element signature="e#4804#4805#0" expanded="true" />
-            <element signature="e#4871#4872#0" expanded="true" />
-            <element signature="e#4913#4914#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/EngagementEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,12 +663,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/users/logout.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -872,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/AdresEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -891,38 +809,7 @@
         <state relative-caret-position="-225" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Reviews.xhtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/base.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Review/review_edit_request.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/MyData/edit_mydata.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Reviews.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/users/SecurityBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -946,42 +833,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/base.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/users/MyDataBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="71" column="71" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/MyData/edit_mydata.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Review/review_edit_request.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="780">
           <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/TemporaryPersonalDataEntityManagedBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="1110">
           <caret line="94" column="30" selection-start-line="81" selection-start-column="8" selection-end-line="94" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/users/MyDataBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="71" column="71" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/users/ReviewEditRequestBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451">
+        <state relative-caret-position="465">
           <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3200#3201#0" expanded="true" />
             <element signature="e#3245#3246#0" expanded="true" />
             <element signature="e#3291#3292#0" expanded="true" />
             <element signature="e#3328#3329#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/EmailsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/PersonalDataEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/JobDataEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/MembershipEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/users/WorkingHoursValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ManagedBeans/MembershipEntityManagedBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/EditMembershipEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AutoFaces/membershipEntity/CreateMembershipEntity.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
         </state>
       </provider>
     </entry>

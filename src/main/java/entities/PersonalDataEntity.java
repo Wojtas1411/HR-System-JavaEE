@@ -1,6 +1,7 @@
 package entities;
 
 import javax.persistence.*;
+import javax.validation.constraints.Past;
 import java.io.Serializable;
 //import java.sql.Date;
 import java.util.Date;
@@ -13,6 +14,7 @@ public class PersonalDataEntity implements Serializable {
     private int id;
     private String familyName;
     private String firstName;
+    @Past
     private Date birthDate;
     private String birthPlace;
     private String photo;

@@ -176,4 +176,21 @@ public class MembershipEntityManagedBean implements Serializable {
 
         return entities;
     }
+
+    public int getMagicValue(){
+        if(myEntity.getPersonalDataByPersonId().getJobDataById() == null){
+            return -1;
+        }
+        Collection<MembershipEntity> all = myEntity.getPersonalDataByPersonId().getMembershipsById();
+        int num = 0;
+        int max = myEntity.getPersonalDataByPersonId().getJobDataById().getWorkingHoursPerWeek();
+        for(MembershipEntity m : all){
+            if(myEntity.getId() != m.getId()){
+                num += m.getWorkingHoursPerWeek();
+            }
+        }
+
+        if(num>max) return 0;
+        return max-num;
+    }
 }

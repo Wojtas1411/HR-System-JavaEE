@@ -2,6 +2,7 @@ package entities;
 
 import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
+import javax.validation.constraints.Email;
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -10,6 +11,7 @@ import java.util.Objects;
 public class EmailsEntity implements Serializable {
     private int id;
     private byte prim;
+    @Email
     private String value;
     @JsonbTransient
     private PersonalDataEntity personalDataByUserId;

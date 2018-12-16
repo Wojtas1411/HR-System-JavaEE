@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://java.sun.com/jstl/core">
+
+<ui:composition template="/templates/base.xhtml">
+    <ui:define name="title">Edit My Data</ui:define>
+    <ui:define name="content">
+        <c:choose>
+            <c:when test="#{empty security.currentUserEntity.personalDataById}">
+                No data available
+            </c:when>
+            <c:otherwise>
+                <h:form>
+                <h3>Personal Data</h3>
+                <h:panelGrid columns="2">
+                    <h:outputText value="First Name"/>
+                    <h:inputText value="#{editMyData.userData.firstName}"/>
+                    <h:outputText value="Family Name"/>
+                    <h:inputText value="#{editMyData.userData.familyName}"/>
+                    <h:outputText value="Birth Date"/>
+                    <h:inputText value="#{editMyData.userData.birthDate}" >
+                        <f:convertDateTime pattern="yyyy.MM.dd" />
+                    </h:inputText>
+                    <h:outputText value="Birth Place"/>
+                    <h:inputText value="#{editMyData.userData.birthPlace}" />
+                    <h:outputText value="Photo"/>
+                    <h:inputText value="#{editMyData.userData.photo}" />
+                </h:panelGrid>
+                <!--emails-->
+                <h3>Emails</h3>
+                <h:panelGrid columns="2">
+                    <h:outputText value="Primary"/>
+                    <h:outputText value="Email"/>
+                    <c:forEach items="#{editMyData.userData.emailsById}" var="item">
+                        <h:selectBooleanCheckbox value="#{item.prim==1}" disabled="true" />
+
+                        <h:inputText value="#{item.value}"/>
+                    </c:forEach>
+                </h:panelGrid>
+
+                <!--phoneNumbers-->
+                <h3>Phone numbers</h3>
+                <h:panelGrid columns="2">
+                    <h:outputText value="Primary"/>
+                    <h:outputText value="Phone Number"/>
+                    <c:forEach items="#{editMyData.userData.phoneNumbersById}" var="item">
+                        <h:selectBooleanCheckbox value="#{item.prim==1}" disabled="true" />
+
+                        <h:inputText value="#{item.value}"/>
+                    </c:forEach>
+                </h:panelGrid>
+
+                <!--adresses-->
+                <h3>Adresses</h3>
+                <h:panelGrid columns="2">
+
+                    <c:forEach items="#{editMyData.userData.adresById}" var="item">
+                        <h:outputText value="Adress"/>
+                        <h:outputText value=""/>
+                        <h:outputText value="Primary"/>
+                        <h:selectBooleanCheckbox value="#{item.prim==1}" disabled="true" />
+                        <h:outputText value="Street"/>
+                        <h:inputText value="#{item.street}"/>
+                        <h:outputText value="Number"/>
+                        <h:inputText value="#{item.number}"/>
+                        <h:outputText value="Local"/>
+                        <h:inputText value="#{item.local}"/>
+                        <h:outputText value="Postal Code"/>
+                        <h:inputText value="#{item.postalCode}"/>
+                        <h:outputText value="Town"/>
+                        <h:inputText value="#{item.town}"/>
+                    </c:forEach>
+                </h:panelGrid>
+                <h:commandButton value="Request edit" action="#{editMyData.requestDataEdit}"/>
+                <h:commandButton value="Cancel" action="mydata"/>
+                </h:form>
+            </c:otherwise>
+        </c:choose>
+
+    </ui:define>
+</ui:composition>
+</html>

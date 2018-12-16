@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<ui:composition template="/templates/base.xhtml">
+
+    <ui:define name="title">Review Edit Request</ui:define>
+    <ui:define name="content">
+        <c:choose>
+        <c:when test="#{empty review.userData}">
+            No data available
+        </c:when>
+        <c:otherwise>
+            <h3>Personal Data</h3>
+            <h:panelGrid columns="2">
+                <h:outputText value="First Name"/>
+                <h:outputText value="#{review.userData.firstName}"/>
+                <h:outputText value="Family Name"/>
+                <h:outputText value="#{review.userData.familyName}"/>
+                <h:outputText value="Birth Date"/>
+                <h:outputText value="#{review.userData.birthDate}" >
+                    <f:convertDateTime pattern="yyyy.MM.dd" />
+                </h:outputText>
+                <h:outputText value="Birth Place"/>
+                <h:outputText value="#{review.userData.birthPlace}" />
+                <h:outputText value="Photo"/>
+                <h:outputText value="#{review.userData.photo}" />
+
+            </h:panelGrid>
+            <!--emails-->
+            <h3>Emails</h3>
+            <h:panelGrid columns="2">
+                <h:outputText value="Primary"/>
+                <h:outputText value="Email"/>
+                <c:forEach items="#{review.userData.emailsById}" var="item">
+                    <h:selectBooleanCheckbox value="#{item.prim==1}" disabled="true" />
+
+                    <h:outputText value="#{item.value}"/>
+                </c:forEach>
+            </h:panelGrid>
+
+            <!--phoneNumbers-->
+            <h3>Phone numbers</h3>
+            <h:panelGrid columns="2">
+                <h:outputText value="Primary"/>
+                <h:outputText value="Phone Number"/>
+                <c:forEach items="#{review.userData.phoneNumbersById}" var="item">
+                    <h:selectBooleanCheckbox value="#{item.prim==1}" disabled="true" />
+
+                    <h:outputText value="#{item.value}"/>
+                </c:forEach>
+            </h:panelGrid>
+
+            <!--adresses-->
+            <h3>Adresses</h3>
+            <h:panelGrid columns="3">
+                <h:outputText value="Primary"/>
+                <h:outputText value="Adress"/>
+                <h:outputText value=""/>
+                <c:forEach items="#{review.userData.adresById}" var="item">
+                    <h:selectBooleanCheckbox value="#{item.prim==1}" disabled="true" />
+
+                    <h:outputText value="#{item.street}"/>
+                    <c:choose>
+                        <c:when test="#{empty item.local}">
+                            <h:outputText value="#{item.number}"/>
+                        </c:when>
+                        <c:otherwise>
+                            <h:outputText value="#{item.number}/#{item.local}"/>
+                        </c:otherwise>
+                    </c:choose>
+                    <h:outputText value=""/>
+                    <h:outputText value="#{item.postalCode} #{item.town}"/>
+                    <h:outputText value=""/>
+                </c:forEach>
+            </h:panelGrid>
+
+            <h:form>
+                <h:commandButton value="Accept" action="#{review.accept_temp}"/>
+                <h:commandButton value="Discard" action="#{review.delete_temp}"/>
+            </h:form>
+
+
+
+        </c:otherwise>
+    </c:choose>
+
+    </ui:define>
+</ui:composition>
+</html>

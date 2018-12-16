@@ -1,5 +1,6 @@
 package entities;
 
+import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
@@ -14,6 +15,7 @@ public class AdresEntity implements Serializable {
     private String local;
     private String postalCode;
     private String town;
+    @JsonbTransient
     private PersonalDataEntity personalDataByUserId;
 
     @Id

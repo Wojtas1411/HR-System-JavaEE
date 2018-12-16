@@ -5,6 +5,7 @@
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/entities/UnitsEntity.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/ManagedBeans/UserEntityManagedBean.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/ManagedBeans/MembershipEntityManagedBean.java
+/home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/users/MyDataBean.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/ManagedBeans/EmailsEntityManagedBean.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/plots/ChartView.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/ManagedBeans/JobDataEntityManagedBean.java
@@ -14,6 +15,7 @@
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/users/SecurityBean.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/entities/MembershipEntity.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/ManagedBeans/UnitsEntityManagedBean.java
+/home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/users/ReviewEditRequestBean.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/entities/AdresEntity.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/ManagedBeans/AdresEntityManagedBean.java
 /home/wojtek/docker/UniLU/docker-wildfly-mysql/Project/src/main/java/ManagedBeans/EmailsEntityConverter.java

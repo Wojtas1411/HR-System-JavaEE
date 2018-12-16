@@ -1,15 +1,17 @@
 package entities;
 
+import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
-@Table(name = "emails", schema = "javaee", catalog = "")
+@Table(name = "emails", schema = "javaee")
 public class EmailsEntity implements Serializable {
     private int id;
     private byte prim;
     private String value;
+    @JsonbTransient
     private PersonalDataEntity personalDataByUserId;
 
     @Id

@@ -2,7 +2,8 @@
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:ui="http://java.sun.com/jsf/facelets"
-      xmlns:p="http://primefaces.org/ui">
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jstl/core">
 <h:head>
     <meta content="text/html; charset=UTF-8" />
 
@@ -27,28 +28,36 @@
 <h:form>
 
     <p:menubar>
-        <p:menuitem value="Home" url="/"/>
-        <p:menuitem value="AutoFaces" url="/AutoFaces"/>
-        <p:menuitem value="My Data" url="/MyData/mydata.xhtml"/>
-        <p:menuitem value="Users" url="/AutoFaces/userEntity/ListUserEntity.xhtml"/>
-        <p:menuitem action="personalDataEntityList" value="Personal Data"/>
-        <p:menuitem action="jobDataEntityList" value="Job Data"/>
+        <p:menuitem value="Home" url="/" rendered="#{security.grantedUser}"/>
+        <p:menuitem value="AutoFaces" url="/AutoFaces" rendered="#{security.grantedAdmin}"/>
 
-        <p:menuitem action="adresEntityList" value="Addresses"/>
-        <p:menuitem action="emailsEntityList" value="Emails"/>
-        <p:menuitem action="phoneNumbersEntityList" value="Phone Numbers "/>
+        <c:if test="#{security.grantedUser}">
+            <p:menuitem value="My Data" url="/MyData/mydata.xhtml"/>
+            <p:menuitem value="My Units" url="/MyData/myunits.xhtml"/>
+        </c:if>
 
-        <p:menuitem action="engagementEntityList" value="Engagement"/>
-        <p:menuitem action="membershipEntityList" value="Memberships"/>
+        <p:menuitem value="Users" url="/AutoFaces/userEntity/ListUserEntity.xhtml" rendered="#{security.grantedAdmin}"/>
 
-        <p:menuitem action="staffCategoryEntityList" value="Staff Categories"/>
-        <p:menuitem action="unitsEntityList" value="Units"/>
+        <c:if test="#{security.grantedHR}">
+            <p:menuitem value="Personal Data" url="/AutoFaces/personalDataEntity/ListPersonalDataEntity.xhtml"/>
+            <p:menuitem value="Job Data" url="/AutoFaces/jobDataEntity/ListJobDataEntity.xhtml"/>
 
-        <p:menuitem action="charts" value="Charts"/>
+            <p:menuitem value="Addresses" url="/AutoFaces/adresEntity/ListAdresEntity.xhtml"/>
+            <p:menuitem value="Emails" url="/AutoFaces/emailsEntity/ListEmailsEntity.xhtml"/>
+            <p:menuitem value="Phone Numbers" url="/AutoFaces/phoneNumbersEntity/ListPhoneNumbersEntity.xhtml"/>
 
-        <p:menuitem action="temporaryPersonalDataEntityList" value="Temporary Personal Data"/>
+            <p:menuitem value="Engagement" url="/AutoFaces/engagementEntity/ListEngagementEntity.xhtml"/>
+            <p:menuitem value="Memberships" url="/AutoFaces/membershipEntity/ListMembershipEntity.xhtml"/>
 
-        <p:menuitem url="/logout" value="Logout"/>
+            <p:menuitem value="Staff Categories" url="/AutoFaces/staffCategoryEntity/ListStaffCategoryEntity.xhtml"/>
+            <p:menuitem value="Units" url="/AutoFaces/unitsEntity/ListUnitsEntity.xhtml"/>
+
+            <p:menuitem value="Charts" url="/Charts/charts.xhtml"/>
+        </c:if>
+
+        <p:menuitem value="Temporary Personal Data" url="/AutoFaces/temporaryPersonalDataEntity/ListTemporaryPersonalDataEntity.xhtml" rendered="#{security.grantedAdmin}"/>
+
+        <p:menuitem url="/logout" value="Logout" rendered="#{security.grantedUser}"/>
     </p:menubar>
 
 </h:form>

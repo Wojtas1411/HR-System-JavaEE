@@ -17,7 +17,7 @@
         <f:view>
             <h1>TemporaryPersonalDataEntity List</h1>
             <h:form>
-              <h:commandButton action="#{temporaryPersonalDataEntity.startCreate}" value="Create"/>
+              <h:commandButton action="#{temporaryPersonalDataEntity.startCreate}" value="Create" rendered="false"/> <!-- disable to create temporary personal data -->
 
               <h:dataTable value='#{temporaryPersonalDataEntity.allEntities}' var='item' border="1" cellpadding="2" cellspacing="0">
                                                        <h:column>

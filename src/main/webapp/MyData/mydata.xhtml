@@ -15,6 +15,7 @@
                 No data available
             </c:when>
             <c:otherwise>
+                <h3>Personal Data</h3>
                 <h:panelGrid columns="2">
                     <h:outputText value="First Name"/>
                     <h:outputText value="#{security.currentUserEntity.personalDataById.firstName}"/>
@@ -32,10 +33,52 @@
                     <h:outputText value="#{security.currentUserEntity.personalDataById.engagementsById.staffCategoryByStaffCategoryId.name}"/>
                 </h:panelGrid>
                 <!--emails-->
+                <h3>Emails</h3>
+                <h:panelGrid columns="2">
+                    <h:outputText value="Primary"/>
+                    <h:outputText value="Email"/>
+                    <c:forEach items="#{security.currentUserEntity.personalDataById.emailsById}" var="item">
+                        <h:selectBooleanCheckbox value="#{item.prim==1}" disabled="true" />
+
+                        <h:outputText value="#{item.value}"/>
+                    </c:forEach>
+                </h:panelGrid>
 
                 <!--phoneNumbers-->
+                <h3>Phone numbers</h3>
+                <h:panelGrid columns="2">
+                    <h:outputText value="Primary"/>
+                    <h:outputText value="Phone Number"/>
+                    <c:forEach items="#{security.currentUserEntity.personalDataById.phoneNumbersById}" var="item">
+                        <h:selectBooleanCheckbox value="#{item.prim==1}" disabled="true" />
+
+                        <h:outputText value="#{item.value}"/>
+                    </c:forEach>
+                </h:panelGrid>
 
                 <!--adresses-->
+                <h3>Adresses</h3>
+                <h:panelGrid columns="3">
+                    <h:outputText value="Primary"/>
+                    <h:outputText value="Adress"/>
+                    <h:outputText value=""/>
+                    <c:forEach items="#{security.currentUserEntity.personalDataById.adresById}" var="item">
+                        <h:selectBooleanCheckbox value="#{item.prim==1}" disabled="true" />
+
+                        <h:outputText value="#{item.street}"/>
+                        <c:choose>
+                            <c:when test="#{empty item.local}">
+                                <h:outputText value="#{item.number}"/>
+                            </c:when>
+                            <c:otherwise>
+                                <h:outputText value="#{item.number}/#{item.local}"/>
+                            </c:otherwise>
+                        </c:choose>
+                        <h:outputText value=""/>
+                        <h:outputText value="#{item.postalCode} #{item.town}"/>
+                        <h:outputText value=""/>
+                    </c:forEach>
+                </h:panelGrid>
 
             </c:otherwise>
         </c:choose>

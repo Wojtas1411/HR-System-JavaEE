@@ -178,6 +178,9 @@ public class MembershipEntityManagedBean implements Serializable {
     }
 
     public int getMagicValue(){
+        if(myEntity.getPersonalDataByPersonId() == null){
+            return 40;
+        }
         if(myEntity.getPersonalDataByPersonId().getJobDataById() == null){
             return -1;
         }

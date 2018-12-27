@@ -1,19 +1,16 @@
-<!--
-  Created by IntelliJ IDEA.
-  User: wojtek
-  Date: 09.12.18
-  Time: 14:28
-  To change this template use File | Settings | File Templates.
--->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:f="http://java.sun.com/jsf/core"
-      xmlns:h="http://java.sun.com/jsf/html">
-<head>
-    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->
-    <meta content="text/html; charset=UTF-8" />
-        <title>Edit MembershipEntity</title>
-    </head>
-    <body>
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<ui:composition template="/templates/base.xhtml">
+
+<ui:define name="title">Edit Membership</ui:define>
+<ui:define name="content">
         <f:view>
             <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
             <h1>Edit MembershipEntity</h1>
@@ -40,5 +37,8 @@
                 <br/>
             </h:form>
         </f:view>
-    </body>
+</ui:define>
+
+</ui:composition>
 </html>
+

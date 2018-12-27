@@ -144,7 +144,7 @@ public class PersonalDataEntity implements Serializable {
         this.jobDataById = jobDataById;
     }
 
-    @OneToMany(mappedBy = "personalDataByPersonId")
+    @OneToMany(mappedBy = "personalDataByPersonId", fetch = FetchType.EAGER)
     public Collection<MembershipEntity> getMembershipsById() {
         return membershipsById;
     }
